@@ -1,10 +1,138 @@
+<!-- Start 1-10 -->
 <!DOCTYPE html>
-<html lang="ja">
+<html>
 <head>
-<meta charset="utf-8">
-<title>MySite1</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" >
+    <link rel="stylesheet" href="style.css">
+    <title>MySite</title>
 </head>
 <body>
- 
+    <header>
+        <h1 class="head-line">
+	        <img class="logo-image" src="img/logo.png">
+	        	<a href="index.html"></a>
+	        <nav>
+	            <ul class="nav-list clearfix">
+	                <a href="#portfolio">Portfolio</a>
+	                <a href="#feature">Feature</a>
+	                <a href="#profile">Profile</a>
+	                <a href="#contact">Contact</a>
+	            </ul>
+	        </nav>
+
+            <div id="nav-drawer">
+                <input id="nav-input" type="checkbox" class="nav-unshown">
+                <div class="drawer-border">
+                    <label id="nav-open" for="nav-input"><span></span></label>
+                </div>
+                <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+                <div id="nav-content">
+                    <nav>
+                        <ul class="drawer-nav-list">
+                            <a href="#portfolio">Portfolio</a>
+                            <a href="#feature">Feature</a>
+                            <a href="#profile">Profile</a>
+                            <a href="#contact">Contact</a>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </h1>
+
+       
+    </header>
+    <div class="main-visual">
+    	<p class="main-visual-title">Lorem Ipsum</p>
+    	<p class="main-visual-text">simply dummy text of the printing</p>
+    </div>
+    <main class="clearfix">
+    	<section class="portfolio clearfix" id="portfolio">
+    		<h2 class="portfolio-headline">Portfolio</h2>
+    		<p class="portfolio-text">It is a long established fact that a reader will be distracted by the readable<br>
+    		content of a page whe looking at its layout.<br>
+    		The point of using Lorem Lpsum is that it has a more-or-less normal distribution of letters
+    		</p>
+    		<div class="portfolio-image-box">
+	    		<div class="portfolio-image"></div>
+	    		<div class="portfolio-image"></div>
+	    		<div class="portfolio-image"></div>
+	    		<div class="portfolio-image"></div>
+	    		<div class="portfolio-image"></div>
+	    		<div class="portfolio-image"></div>
+	    	</div>
+	    </section>
+	    <section class="feature clearfix" id="feature">
+	    	<h2 class="feature-headline">Feature</h2>
+	    	<p class="feature-text">It is a long established fact that a reader will be distracted by the readable<br>
+    		content of a page whe looking at its layout.<br>
+    		The point of using Lorem Lpsum is that it has a more-or-less normal distribution of letters
+    		</p>
+    		<div class="strength-box clearfix" >
+    			<div class="strength-item">
+    				<i class="fab fa-line"></i>
+    				<h2 class="strength-headline">Strength1</h2>
+    				<p class="strength-text">WebCamp半端ないって〜WebCamp半端ないって〜WebCamp半端ないって〜WebCamp半端ないって〜WebCamp半端ないって〜WebCamp半端ないって〜WebCamp半端ないって〜WebCamp半端ないって〜WebCamp半端ないって〜WebCamp半端ないって〜WebCamp半端ないって〜</p>
+    			</div>
+    			<div class="strength-item">
+    				<i class="fab fa-facebook"></i>
+    				<h2 class="strength-headline">Strength2</h2>
+    				<p class="strength-text">WebCamp半端ないって〜WebCamp半端ないって〜WebCamp半端ないって〜WebCamp半端ないって〜WebCamp半端ないって〜WebCamp半端ないって〜WebCamp半端ないって〜WebCamp半端ないって〜WebCamp半端ないって〜WebCamp半端ないって〜WebCamp半端ないって〜</p>
+    			</div>
+    			<div class="strength-item">
+    				<i class="fab fa-angellist"></i>
+    				<h2 class="strength-headline">Strength3</h2>
+    				<p class="strength-text">WebCamp半端ないって〜WebCamp半端ないって〜WebCamp半端ないって〜WebCamp半端ないって〜WebCamp半端ないって〜WebCamp半端ないって〜WebCamp半端ないって〜WebCamp半端ないって〜WebCamp半端ないって〜WebCamp半端ないって〜WebCamp半端ないって〜</p>
+    			</div>
+    		</div>
+	    </section>
+	    <section class="profile clearfix" id="profile">
+            <div class="profile-box clearfix">
+    	    	<h2 class="profile-headline">Profile</h2>
+    	    	<p class="profile-text">It is a long established fact that a reader will be distracted by the readable<br>
+        		content of a page whe looking at its layout.<br>
+        		The point of using Lorem Lpsum is that it has a more-or-less normal distribution of letters</p>
+        		<div class="profile-image-box">
+        			<img class="profile-image" src="img/my-icon.jpg">
+        		</div>
+        		<div class="profile-contents">
+        			<h3 class="profile-contents-headline">MyName</h3>
+        			<p class="profile-contents-text">WebCamp半端ないって〜WebCamp半端ないって〜WebCamp半端ないって〜WebCamp半端ないって〜WebCamp半端ないって〜WebCamp半端ないって〜WebCamp半端ないって〜WebCamp半端ないって〜WebCamp半端ないって〜WebCamp半端ないって〜WebCamp半端ないって〜</p>
+        			<h3 class="profile-contents-headline">MySlills</h3>
+        			<p class="profile-contents-text">HTML/CSS/JavaScript/JQuery/Photoshop</p>
+        		</div>
+            </div>
+    	</section>
+    	<section class="contact clearfix" id="contact">
+    		<h1 class="contact-headline">Contact</h1>
+    		<p class="contact-text">It is a long established fact that a reader will be distracted by the readable<br>
+    		content of a page whe looking at its layout.<br>
+    		The point of using Lorem Lpsum is that it has a more-or-less normal distribution of letters</p>
+    		<div class="contact-contents">
+                <div class="contact-contents-inner">
+        			<h3 class="contact-contents-headline">Mail</h3>
+        			<p class="contact-contents-text">xxx@xxx.com</p>
+        			<h3 class="contact-contents-headline">Tel</h3>
+        			<p class="contact-contents-text">000-0000-0000</p>
+                </div>
+    		</div>
+    		<div class="social">
+                <div class="social-inner">
+        			<h3 class="contact-contents-headline">SNS</h3>
+        			<div class="social-icon">
+            			<i class="fab fa-facebook"></i>
+        				<i class="fab fa-twitter"></i>
+        				<i class="fab fa-instagram"></i>
+                    </div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<p class="footer-text">©︎ 2017 WebCamp</p>
+	</footer>
+
+
 </body>
 </html>
